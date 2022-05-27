@@ -13,7 +13,7 @@ int main(){
 setlocale(LC_ALL, "Turkish");
 	
 	int x;
-	printf("Lütfen faktöriyelini almak sitediğiniz sayıyı girin: ");
+	printf("LÃ¼tfen faktÃ¶riyelini almak sitediÃ°iniz sayÄ±yÄ± girin: ");
 	scanf("%d",&x);
 	
 	printf("%d",fact(x));
