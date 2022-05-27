@@ -1,4 +1,4 @@
-//5 basamaklı bir sayıyı basamaklarına ayırabilen algoritma.
+//5 basamaklÄ± bir sayÄ±yÄ± basamaklarÄ±na ayÄ±rabilen algoritma.
 #include<stdio.h>
 #include<locale.h>
 
@@ -7,6 +7,10 @@
 int main(){
 setlocale(LC_ALL, "Turkish");
 	
+	int number;
+	printf("LÃ¼tfen bir beÅŸ basamaklÄ± bir sayÄ± girin: ");
+	scanf("%d",&number);
+		
 		digit[0] = number / 10000;
 		number = number - 10000 * digit[0];
 		
@@ -20,6 +24,7 @@ setlocale(LC_ALL, "Turkish");
 		number = number - 10 * digit[3];
 		
 		digit[4] = number;
+	
 	
 	return 0;
 }
